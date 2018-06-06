@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metalink>
-    <published>2018-06-06T22:07:13.660+02:00</published>
+    <published>2018-06-06T22:10:06.752+02:00</published>
     <file name="misc.xml">
         <size>262</size>
         <url>http://zad-zwiwo.com/download/.idea/misc.xml</url>
@@ -22,9 +22,9 @@
         <hash type="MD5">166acef3d301bd241d0d6da15bc5ad3c</hash>
     </file>
     <file name="workspace.xml">
-        <size>38537</size>
+        <size>31765</size>
         <url>http://zad-zwiwo.com/download/.idea/workspace.xml</url>
-        <hash type="MD5">d9e2bb8426f68c599b9f6dbbe00c3ce4</hash>
+        <hash type="MD5">3726063f8458fb5baafc5d74a45fc2ba</hash>
     </file>
     <file name="ant-tasks.iml">
         <size>1747</size>
@@ -32,9 +32,9 @@
         <hash type="MD5">1f64062d1ead44ab3c95c6c5b23de3cd</hash>
     </file>
     <file name="build.xml">
-        <size>1973</size>
+        <size>1981</size>
         <url>http://zad-zwiwo.com/download/build.xml</url>
-        <hash type="MD5">4da0ef5dd7d23b90e10aecbe52010cf1</hash>
+        <hash type="MD5">0172e4bc4cb19611b55687f3ff721e36</hash>
     </file>
     <file name="FileData.class">
         <size>1087</size>
@@ -79,7 +79,7 @@
     <file name="ant-tasks.jar">
         <size>6049</size>
         <url>http://zad-zwiwo.com/download/build/jar/ant-tasks.jar</url>
-        <hash type="MD5">4d3833e53b20dc8340422c75b634ecc3</hash>
+        <hash type="MD5">0c71cdd7ed86cf2399505d48ef1b0183</hash>
     </file>
     <file name="findbugs.xml">
         <size>578</size>
@@ -142,9 +142,9 @@
         <hash type="MD5">d684636c4bd24d158dbfd323b42cc0ff</hash>
     </file>
     <file name="MetalinkTask.java">
-        <size>2839</size>
+        <size>2536</size>
         <url>http://zad-zwiwo.com/download/src/MetalinkTask.java</url>
-        <hash type="MD5">c16f20e1a7a45225eccdabd5bdff5db6</hash>
+        <hash type="MD5">29706de90ff0aaca7b1f93e2bb94daae</hash>
     </file>
     <file name="XMLCreator.java">
         <size>563</size>
@@ -152,8 +152,8 @@
         <hash type="MD5">b2ac6afa48144a74f9568420ccd8d077</hash>
     </file>
     <file name="zad-zwiwo.xml">
-        <size>3915</size>
+        <size>6479</size>
         <url>http://zad-zwiwo.com/download/zad-zwiwo.xml</url>
-        <hash type="MD5">460a81bf7cf07baef0fb34513280e84a</hash>
+        <hash type="MD5">d65777563bff8f35176b4225fd09710a</hash>
     </file>
 </metalink>

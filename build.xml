@@ -48,7 +48,7 @@
         </hello>
     </target>
 
-    <target name="metalink" depends="jar">
+    <target name="metalink-example" depends="jar">
         <taskdef name="meta4" classname="MetalinkTask" classpath="build/jar/${ant.project.name}.jar" />
         <meta4 url="http://zad-zwiwo.com/download/" file="zad-zwiwo.xml">
             <fileset dir="." />
