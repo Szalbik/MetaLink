@@ -12,19 +12,22 @@ public class FileData {
 
     private long size;
     private String url;
+    private Hash hash;
 
     public FileData() {}
 
-    public FileData(String name, String url, long size) {
+    public FileData(String name, String url, long size, Hash hash) {
         this.name = name;
         this.size = size;
         this.url = url;
+        this.hash = hash;
     }
 
-    public FileData(File file) {
+    public FileData(File file, Hash hash) {
         this.name = file.getName();
         this.url = file.getAbsolutePath();
         this.size = file.length();
+        this.hash = hash;
     }
 
     public String getName() {

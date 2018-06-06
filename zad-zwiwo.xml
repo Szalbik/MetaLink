@@ -1,112 +1,159 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metalink>
-    <published>2018-06-06T21:55:10.211+02:00</published>
+    <published>2018-06-06T22:07:13.660+02:00</published>
     <file name="misc.xml">
         <size>262</size>
         <url>http://zad-zwiwo.com/download/.idea/misc.xml</url>
+        <hash type="MD5">226517ee1d5ec4ad68bbbff35e13f22e</hash>
     </file>
     <file name="modules.xml">
         <size>258</size>
         <url>http://zad-zwiwo.com/download/.idea/modules.xml</url>
+        <hash type="MD5">57184c30da3f5330fe0c9df9e4bf0753</hash>
     </file>
     <file name="uiDesigner.xml">
         <size>8792</size>
         <url>http://zad-zwiwo.com/download/.idea/uiDesigner.xml</url>
+        <hash type="MD5">a9d2a34fba34d48e46ce58d67808142a</hash>
     </file>
     <file name="vcs.xml">
         <size>180</size>
         <url>http://zad-zwiwo.com/download/.idea/vcs.xml</url>
+        <hash type="MD5">166acef3d301bd241d0d6da15bc5ad3c</hash>
     </file>
     <file name="workspace.xml">
-        <size>35988</size>
+        <size>38537</size>
         <url>http://zad-zwiwo.com/download/.idea/workspace.xml</url>
+        <hash type="MD5">d9e2bb8426f68c599b9f6dbbe00c3ce4</hash>
     </file>
     <file name="ant-tasks.iml">
         <size>1747</size>
         <url>http://zad-zwiwo.com/download/ant-tasks.iml</url>
+        <hash type="MD5">1f64062d1ead44ab3c95c6c5b23de3cd</hash>
     </file>
     <file name="build.xml">
         <size>1973</size>
         <url>http://zad-zwiwo.com/download/build.xml</url>
+        <hash type="MD5">4da0ef5dd7d23b90e10aecbe52010cf1</hash>
     </file>
     <file name="FileData.class">
-        <size>1030</size>
+        <size>1087</size>
         <url>http://zad-zwiwo.com/download/build/classes/FileData.class</url>
+        <hash type="MD5">7295f57539cd933d6d0c2f16a86bc56f</hash>
+    </file>
+    <file name="Hash.class">
+        <size>586</size>
+        <url>http://zad-zwiwo.com/download/build/classes/Hash.class</url>
+        <hash type="MD5">352c82ed4b50e21b4e10d87fa4edae7b</hash>
     </file>
     <file name="HelloWorld.class">
         <size>823</size>
         <url>http://zad-zwiwo.com/download/build/classes/HelloWorld.class</url>
+        <hash type="MD5">4f67c4f49c942616c8f1e95306259f35</hash>
+    </file>
+    <file name="MD5Hash.class">
+        <size>1232</size>
+        <url>http://zad-zwiwo.com/download/build/classes/MD5Hash.class</url>
+        <hash type="MD5">5f4156d7a35232ecfb539edf160d1605</hash>
     </file>
     <file name="Message.class">
         <size>295</size>
         <url>http://zad-zwiwo.com/download/build/classes/Message.class</url>
+        <hash type="MD5">e440054682f5c064a6aa6e876b957b6c</hash>
     </file>
     <file name="MetalinkData.class">
         <size>789</size>
         <url>http://zad-zwiwo.com/download/build/classes/MetalinkData.class</url>
+        <hash type="MD5">5ffeb950f4d29faef0e7d63686a9a612</hash>
     </file>
     <file name="MetalinkTask.class">
-        <size>2799</size>
+        <size>2972</size>
         <url>http://zad-zwiwo.com/download/build/classes/MetalinkTask.class</url>
+        <hash type="MD5">d71aed306d039949f25337a6407b50d0</hash>
     </file>
     <file name="XMLCreator.class">
         <size>881</size>
         <url>http://zad-zwiwo.com/download/build/classes/XMLCreator.class</url>
+        <hash type="MD5">24950657e46db95b2542a053e783a953</hash>
     </file>
     <file name="ant-tasks.jar">
-        <size>4655</size>
+        <size>6049</size>
         <url>http://zad-zwiwo.com/download/build/jar/ant-tasks.jar</url>
+        <hash type="MD5">4d3833e53b20dc8340422c75b634ecc3</hash>
     </file>
     <file name="findbugs.xml">
         <size>578</size>
         <url>http://zad-zwiwo.com/download/findbugs.xml</url>
+        <hash type="MD5">0e7a8cf203fec9fc2aacf0a951c948ba</hash>
     </file>
     <file name="ant.jar">
         <size>1286456</size>
         <url>http://zad-zwiwo.com/download/lib/ant.jar</url>
+        <hash type="MD5">b7eeda8f70d6ce287fe1b30e2ccc8fdb</hash>
     </file>
     <file name="findbugs-ant.jar">
         <size>23744</size>
         <url>http://zad-zwiwo.com/download/lib/findbugs-ant.jar</url>
+        <hash type="MD5">7bdfb5e26e1ceedeae2fc06cd052ce1b</hash>
     </file>
     <file name="junit-addons-1.4.jar">
         <size>54231</size>
         <url>http://zad-zwiwo.com/download/lib/junit-addons-1.4.jar</url>
+        <hash type="MD5">14576d9b5edab0b3755544ee92e844f7</hash>
     </file>
     <file name="junit.jar">
         <size>121653</size>
         <url>http://zad-zwiwo.com/download/lib/junit.jar</url>
+        <hash type="MD5">8f978abc1bcd0bd48402883d7f7e228a</hash>
     </file>
     <file name="oy-lm-1.4.jar">
         <size>131132</size>
         <url>http://zad-zwiwo.com/download/lib/oy-lm-1.4.jar</url>
+        <hash type="MD5">c2cf29dc767237bbb2339d7509ca51f7</hash>
     </file>
     <file name="FileData.java">
-        <size>1103</size>
+        <size>1200</size>
         <url>http://zad-zwiwo.com/download/src/FileData.java</url>
+        <hash type="MD5">3bba2793e19b03ed196c0b23bcdb2404</hash>
+    </file>
+    <file name="Hash.java">
+        <size>523</size>
+        <url>http://zad-zwiwo.com/download/src/Hash.java</url>
+        <hash type="MD5">78e18a5c52e644826d2ccee7ad2a52d1</hash>
     </file>
     <file name="HelloWorld.java">
         <size>497</size>
         <url>http://zad-zwiwo.com/download/src/HelloWorld.java</url>
+        <hash type="MD5">b653e8ea4e27e22e0a5cf7a05000f42d</hash>
+    </file>
+    <file name="MD5Hash.java">
+        <size>933</size>
+        <url>http://zad-zwiwo.com/download/src/MD5Hash.java</url>
+        <hash type="MD5">151c9111f5fc3a3e7e111dc021f70967</hash>
     </file>
     <file name="Message.java">
         <size>173</size>
         <url>http://zad-zwiwo.com/download/src/Message.java</url>
+        <hash type="MD5">df45b4504bf11db939531323dcc7722e</hash>
     </file>
     <file name="MetalinkData.java">
         <size>635</size>
         <url>http://zad-zwiwo.com/download/src/MetalinkData.java</url>
+        <hash type="MD5">d684636c4bd24d158dbfd323b42cc0ff</hash>
     </file>
     <file name="MetalinkTask.java">
-        <size>2442</size>
+        <size>2839</size>
         <url>http://zad-zwiwo.com/download/src/MetalinkTask.java</url>
+        <hash type="MD5">c16f20e1a7a45225eccdabd5bdff5db6</hash>
     </file>
     <file name="XMLCreator.java">
         <size>563</size>
         <url>http://zad-zwiwo.com/download/src/XMLCreator.java</url>
+        <hash type="MD5">b2ac6afa48144a74f9568420ccd8d077</hash>
     </file>
     <file name="zad-zwiwo.xml">
-        <size>3950</size>
+        <size>3915</size>
         <url>http://zad-zwiwo.com/download/zad-zwiwo.xml</url>
+        <hash type="MD5">460a81bf7cf07baef0fb34513280e84a</hash>
     </file>
 </metalink>

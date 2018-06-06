@@ -38,13 +38,6 @@ public class MetalinkTask extends Task {
         filesets.add(fileset);
     }
 
-    private void addMetalinkData(File file) throws NoSuchAlgorithmException, IOException {
-//        String hashValue = MD5Util.createHash(file);
-//        Hash hash = new Hash("MD5", hashValue);
-        FileData fileData = new FileData(file);
-        metalink.addToList(fileData);
-    }
-
     @Override
     public void execute() throws BuildException {
         if (url.equals(null)) {
@@ -63,7 +56,19 @@ public class MetalinkTask extends Task {
             for (String fileName:ds.getIncludedFiles()) {
                 File file = new File(fileName);
                 String fileUrl = url + fileName;
-                FileData fileData = new FileData(file.getName(), fileUrl, file.length());
+
+
+                String hashValue = null;
+                try {
+                    hashValue = MD5Hash.createHash(file);
+                } catch (NoSuchAlgorithmException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Hash hash = new Hash("MD5", hashValue);
+
+                FileData fileData = new FileData(file.getName(), fileUrl, file.length(), hash);
                 metalink.addToList(fileData);
             }
         }
