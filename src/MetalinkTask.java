@@ -3,14 +3,18 @@ import org.apache.tools.ant.DirectoryScanner;
 import org.apache.tools.ant.Task;
 import org.apache.tools.ant.types.FileSet;
 
+import javax.xml.bind.JAXBException;
 import java.io.File;
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MetalinkTask extends Task {
     private String url;
     private String file;
-    private List<FileData> fileDataList;
+    private List<FileData> fileDataList = new ArrayList<>();
+    private MetalinkData metalink = new MetalinkData();
 
     private List<FileSet> filesets = new ArrayList<>();
 
@@ -22,16 +26,23 @@ public class MetalinkTask extends Task {
         this.url = url;
     }
 
-    public void addFileset(FileSet fileset) {
-        filesets.add(fileset);
-    }
-
     public List<FileData> getFileDataList() {
         return fileDataList;
     }
 
     public void setFileDataList(List<FileData> fileDataList) {
         this.fileDataList = fileDataList;
+    }
+
+    public void addFileset(FileSet fileset) {
+        filesets.add(fileset);
+    }
+
+    private void addMetalinkData(File file) throws NoSuchAlgorithmException, IOException {
+//        String hashValue = MD5Util.createHash(file);
+//        Hash hash = new Hash("MD5", hashValue);
+        FileData fileData = new FileData(file);
+        metalink.addToList(fileData);
     }
 
     @Override
@@ -55,8 +66,16 @@ public class MetalinkTask extends Task {
                 FileData fileData = new FileData(fileName, fileUrl, file.length());
                 log(fileData.getName());
                 log(fileData.getUrl());
-                fileDataList.add(fileData);
+                metalink.addToList(fileData);
             }
+        }
+
+        try {
+            XMLCreator xmlCreator = new XMLCreator(metalink, new File(file));
+            xmlCreator.create();
+        } catch (JAXBException e) {
+            e.printStackTrace();
+            throw new BuildException("Could not save file!");
         }
     }
 }
