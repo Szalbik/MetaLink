@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metalink>
-    <published>2018-06-06T21:49:54.269+02:00</published>
-    <file name=".idea/misc.xml">
+    <published>2018-06-06T21:55:10.211+02:00</published>
+    <file name="misc.xml">
         <size>262</size>
         <url>http://zad-zwiwo.com/download/.idea/misc.xml</url>
     </file>
-    <file name=".idea/modules.xml">
+    <file name="modules.xml">
         <size>258</size>
         <url>http://zad-zwiwo.com/download/.idea/modules.xml</url>
     </file>
-    <file name=".idea/uiDesigner.xml">
+    <file name="uiDesigner.xml">
         <size>8792</size>
         <url>http://zad-zwiwo.com/download/.idea/uiDesigner.xml</url>
     </file>
-    <file name=".idea/vcs.xml">
+    <file name="vcs.xml">
         <size>180</size>
         <url>http://zad-zwiwo.com/download/.idea/vcs.xml</url>
     </file>
-    <file name=".idea/workspace.xml">
-        <size>35572</size>
+    <file name="workspace.xml">
+        <size>35988</size>
         <url>http://zad-zwiwo.com/download/.idea/workspace.xml</url>
     </file>
     <file name="ant-tasks.iml">
@@ -26,83 +26,87 @@
         <url>http://zad-zwiwo.com/download/ant-tasks.iml</url>
     </file>
     <file name="build.xml">
-        <size>2129</size>
+        <size>1973</size>
         <url>http://zad-zwiwo.com/download/build.xml</url>
     </file>
-    <file name="build/classes/FileData.class">
+    <file name="FileData.class">
         <size>1030</size>
         <url>http://zad-zwiwo.com/download/build/classes/FileData.class</url>
     </file>
-    <file name="build/classes/HelloWorld.class">
+    <file name="HelloWorld.class">
         <size>823</size>
         <url>http://zad-zwiwo.com/download/build/classes/HelloWorld.class</url>
     </file>
-    <file name="build/classes/Message.class">
+    <file name="Message.class">
         <size>295</size>
         <url>http://zad-zwiwo.com/download/build/classes/Message.class</url>
     </file>
-    <file name="build/classes/MetalinkData.class">
+    <file name="MetalinkData.class">
         <size>789</size>
         <url>http://zad-zwiwo.com/download/build/classes/MetalinkData.class</url>
     </file>
-    <file name="build/classes/MetalinkTask.class">
-        <size>2833</size>
+    <file name="MetalinkTask.class">
+        <size>2799</size>
         <url>http://zad-zwiwo.com/download/build/classes/MetalinkTask.class</url>
     </file>
-    <file name="build/classes/XMLCreator.class">
+    <file name="XMLCreator.class">
         <size>881</size>
         <url>http://zad-zwiwo.com/download/build/classes/XMLCreator.class</url>
     </file>
-    <file name="build/jar/ant-tasks.jar">
-        <size>4674</size>
+    <file name="ant-tasks.jar">
+        <size>4655</size>
         <url>http://zad-zwiwo.com/download/build/jar/ant-tasks.jar</url>
     </file>
     <file name="findbugs.xml">
         <size>578</size>
         <url>http://zad-zwiwo.com/download/findbugs.xml</url>
     </file>
-    <file name="lib/ant.jar">
+    <file name="ant.jar">
         <size>1286456</size>
         <url>http://zad-zwiwo.com/download/lib/ant.jar</url>
     </file>
-    <file name="lib/findbugs-ant.jar">
+    <file name="findbugs-ant.jar">
         <size>23744</size>
         <url>http://zad-zwiwo.com/download/lib/findbugs-ant.jar</url>
     </file>
-    <file name="lib/junit-addons-1.4.jar">
+    <file name="junit-addons-1.4.jar">
         <size>54231</size>
         <url>http://zad-zwiwo.com/download/lib/junit-addons-1.4.jar</url>
     </file>
-    <file name="lib/junit.jar">
+    <file name="junit.jar">
         <size>121653</size>
         <url>http://zad-zwiwo.com/download/lib/junit.jar</url>
     </file>
-    <file name="lib/oy-lm-1.4.jar">
+    <file name="oy-lm-1.4.jar">
         <size>131132</size>
         <url>http://zad-zwiwo.com/download/lib/oy-lm-1.4.jar</url>
     </file>
-    <file name="src/FileData.java">
+    <file name="FileData.java">
         <size>1103</size>
         <url>http://zad-zwiwo.com/download/src/FileData.java</url>
     </file>
-    <file name="src/HelloWorld.java">
+    <file name="HelloWorld.java">
         <size>497</size>
         <url>http://zad-zwiwo.com/download/src/HelloWorld.java</url>
     </file>
-    <file name="src/Message.java">
+    <file name="Message.java">
         <size>173</size>
         <url>http://zad-zwiwo.com/download/src/Message.java</url>
     </file>
-    <file name="src/MetalinkData.java">
+    <file name="MetalinkData.java">
         <size>635</size>
         <url>http://zad-zwiwo.com/download/src/MetalinkData.java</url>
     </file>
-    <file name="src/MetalinkTask.java">
-        <size>2517</size>
+    <file name="MetalinkTask.java">
+        <size>2442</size>
         <url>http://zad-zwiwo.com/download/src/MetalinkTask.java</url>
     </file>
-    <file name="src/XMLCreator.java">
+    <file name="XMLCreator.java">
         <size>563</size>
         <url>http://zad-zwiwo.com/download/src/XMLCreator.java</url>
+    </file>
+    <file name="zad-zwiwo.xml">
+        <size>3950</size>
+        <url>http://zad-zwiwo.com/download/zad-zwiwo.xml</url>
     </file>
 </metalink>

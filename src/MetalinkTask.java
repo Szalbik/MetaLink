@@ -63,9 +63,7 @@ public class MetalinkTask extends Task {
             for (String fileName:ds.getIncludedFiles()) {
                 File file = new File(fileName);
                 String fileUrl = url + fileName;
-                FileData fileData = new FileData(fileName, fileUrl, file.length());
-                log(fileData.getName());
-                log(fileData.getUrl());
+                FileData fileData = new FileData(file.getName(), fileUrl, file.length());
                 metalink.addToList(fileData);
             }
         }
