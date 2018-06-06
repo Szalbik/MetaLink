@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="ant-tasks">
+
+    <property name="src.dir" value="src" />
+
+    <property name="build.dir" value="build" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+    <property name="jar.dir" value="${build.dir}/jar" />
+
+    <property name="main-class" value="HelloWorld" />
+
+    <target name="info">
+        <echo>${ant.version}</echo>
+        <echo>${ant.file}</echo>
+        <echo>${basedir}</echo>
+        <echo>${ant.java.version}</echo>
+        <echo>${ant.project.name}</echo>
+        <echo>${ant.project.default-target}</echo>
+        <echo>${ant.project.invoked-targets}</echo>
+        <echo>${ant.core.lib}</echo>
+        <echo>${ant.home}</echo>
+        <echo>${ant.library.dir}</echo>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
+
+    <target name="build" depends="clean">
+        <mkdir dir="${classes.dir}" />
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" />
+    </target>
+
+    <target name="jar" depends="build">
+        <mkdir dir="${jar.dir}" />
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}" />
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="SayHello" description="Use my new task" depends="jar">
+        <taskdef name="hello" classname="HelloWorld" classpath="build/jar/${ant.project.name}.jar" />
+        <hello>
+            <message msg="Nested Element 1"/>
+            <message msg="Nested Element 2"/>
+        </hello>
+    </target>
+
+    <target name="metalink" depends="jar">
+        <taskdef name="meta4" classname="MetalinkTask" classpath="build/jar/${ant.project.name}.jar" />
+        <meta4 url="http://zad-zwiwo.com/download/" file="zad-zwiwo.xml">
+            <fileset dir="." />
+        </meta4>
+    </target>
+
+    <!-- Nie działa narazie -->
+    <target name="run" depends="jar">
+        <java jar="${jar.dir}/${ant.project.name}.jar" fork="true" />
+    </target>
+</project>

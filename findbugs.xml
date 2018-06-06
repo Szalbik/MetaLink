@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="findbugs" name="findbugs">
+	<taskdef resource="edu/umd/cs/findbugs/anttask/tasks.properties">
+		<classpath path="lib/findbugs-ant.jar"/>
+	</taskdef>
+	
+	<target name="findbugs">
+		<findbugs home="../tools/findbugs" output="html" outputFile="findbugs.html">
+			<auxClasspath>
+				<fileset dir="${basedir}/lib" includes="*.jar" />
+			</auxClasspath>
+				
+			<sourcePath path="${basedir}/src/java" />
+			<class location="${basedir}/build" />
+		</findbugs>
+	</target>
+</project>
